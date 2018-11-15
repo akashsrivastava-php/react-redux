@@ -35,10 +35,10 @@ class App extends Component {
           >
             Learn React
           </a>
-        </header>
-        <div>
+          <div>
           <input onChange={this.onUpdateUser} />{this.props.user}
         </div>
+        </header>
       </div>
     );
   }
